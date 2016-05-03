@@ -1,0 +1,43 @@
+benchamark linked list
+250 nodes
+
+cycles
+64 - 325115
+128- 315573
+256- 315588
+512- 315588
+
+
+
+ipc
+64
+system.cpu.cpi                               1.242476                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         1.242476                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               0.804844                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         0.804844                       # IPC: Total IPC of All Threads
+
+128
+system.cpu.cpi                               1.206010                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         1.206010                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               0.829181                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         0.829181                       # IPC: Total IPC of All Threads
+
+256
+system.cpu.cpi                               1.206067                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         1.206067                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               0.829141                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         0.829141                       # IPC: Total IPC of All Threads
+
+512
+system.cpu.cpi                               1.206067                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         1.206067                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               0.829141                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         0.829141                       # IPC: Total IPC of All Threads
+
+
+MisPrdiction
+64
+system.cpu.commit.branchMispredicts                  2442                   # The number of times a branch was mispredicted
+128													 2524
+256													 2546
+512											   	 	 2546

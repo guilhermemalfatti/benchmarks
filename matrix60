@@ -1,0 +1,35 @@
+benchamark matrix
+60x60
+
+cycles
+64 - 7208704
+128- 7320422
+256- 7258328
+512- 7258328
+
+
+
+ipc
+64
+system.cpu.cpi                               0.778004                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         0.778004                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               1.285340                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         1.285340                       # IPC: Total IPC of All Threads
+
+128
+system.cpu.cpi                               0.790062                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         0.790062                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               1.265724                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         1.265724                       # IPC: Total IPC of All Threads
+
+256
+system.cpu.cpi                               0.783360                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         0.783360                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               1.276552                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         1.276552                       # IPC: Total IPC of All Threads
+
+512
+system.cpu.cpi                               0.783360                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         0.783360                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               1.276552                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         1.276552                       # IPC: Total IPC of All Threads

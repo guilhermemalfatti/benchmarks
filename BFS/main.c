@@ -8,11 +8,11 @@ arm-linux-gnueabi-g++ -o2 -static main.c graph.c lqueue.c llist.c -o bfs
 build x86 gem5:
 gcc -static main.c graph.c lqueue.c llist.c -o bfs
 exec x86 in gem5
-../build/X86/gem5.fast configs/example/se.py  --cpu-type=detailed --caches --l2cache --l1d_size='32kB' --l1i_size='32kB' --l2_size='1MB' --cmd /home/malfatti/git/class/BFS/bfs 6
+../build/X86/gem5.fast configs/example/se.py  --cpu-type=detailed --caches --l2cache --l1d_size='32kB' --l1i_size='32kB' --l2_size='1MB' --cmd /home/malfatti/git/benchmarks/BFS/bfs 6
 or
-./build/X86/gem5.fast configs/myScripts/MySimulation.py -c "/home/malfatti/git/class/BFS/bfs" -o 6
+./build/X86/gem5.fast configs/myScripts/MySimulation.py -c "/home/malfatti/git/benchmarks/BFS/bfs" -o 6
 exec arm in gem5
- ./build/ARM/gem5.debug configs/example/se.py  --cpu-type=detailed --caches --l2cache --l1d_size='32kB' --l1i_size='32kB' --l2_size='1MB' --cmd /home/malfatti/git/class/BFS/bfs.arm
+ ./build/ARM/gem5.debug configs/example/se.py  --cpu-type=detailed --caches --l2cache --l1d_size='32kB' --l1i_size='32kB' --l2_size='1MB' --cmd /home/malfatti/git/benchmarks/BFS/bfs.arm
 */
 #include <stdio.h>
 #include <stdlib.h>

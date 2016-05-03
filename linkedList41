@@ -1,0 +1,43 @@
+benchamark linked list
+41 nodes
+
+cycles
+64 - 183766
+128- 178474
+256- 178365
+512- 178365
+
+
+
+ipc
+64
+system.cpu.cpi                               2.320952                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         2.320952                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               0.430858                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         0.430858                       # IPC: Total IPC of All Threads
+
+128
+system.cpu.cpi                               2.254114                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         2.254114                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               0.443633                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         0.443633                       # IPC: Total IPC of All Threads
+
+256
+system.cpu.cpi                               2.252738                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         2.252738                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               0.443904                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         0.443904                       # IPC: Total IPC of All Threads
+
+512
+system.cpu.cpi                               2.252738                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         2.252738                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               0.443904                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         0.443904                       # IPC: Total IPC of All Threads
+
+
+MisPrdiction
+64
+system.cpu.commit.branchMispredicts              2025                       # The number of times a branch was mispredicted
+128												 2427
+256												 2111
+512												 2111

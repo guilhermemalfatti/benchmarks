@@ -1,0 +1,43 @@
+benchamark linked list
+125 nodes
+
+cycles
+64 - 243193
+128- 236678
+256- 235802
+512- 235802
+
+
+
+ipc
+64
+system.cpu.cpi                               1.598135                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         1.598135                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               0.625729                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         0.625729                       # IPC: Total IPC of All Threads
+
+128
+system.cpu.cpi                               1.555322                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         1.555322                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               0.642954                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         0.642954                       # IPC: Total IPC of All Threads
+
+256
+system.cpu.cpi                               1.549565                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         1.549565                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               0.645342                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         0.645342                       # IPC: Total IPC of All Threads
+
+512
+system.cpu.cpi                               1.549565                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         1.549565                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               0.645342                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         0.645342                       # IPC: Total IPC of All Threads
+
+
+MisPrdiction
+64
+system.cpu.commit.branchMispredicts              2767                       # The number of times a branch was mispredicted
+128												 2287
+256												 2297
+512												 2713

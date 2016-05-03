@@ -1,0 +1,35 @@
+benchamark BFS
+10
+
+cycles
+64 - 101046
+128- 97687
+256- 96907
+512- 96907
+
+
+
+ipc
+64
+system.cpu.cpi                               2.605554                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         2.605554                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               0.383795                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         0.383795                       # IPC: Total IPC of All Threads
+
+128
+system.cpu.cpi                               2.518940                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         2.518940                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               0.396992                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         0.396992                       # IPC: Total IPC of All Threads
+
+256
+system.cpu.cpi                               2.498827                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         2.498827                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               0.400188                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         0.400188                       # IPC: Total IPC of All Threads
+
+512
+system.cpu.cpi                               2.498827                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         2.498827                       # CPI: Total CPI of All Threads
+system.cpu.ipc                               0.400188                       # IPC: Instructions Per Cycle
+system.cpu.ipc_total                         0.400188                       # IPC: Total IPC of All Threads
