@@ -33,3 +33,10 @@ system.cpu.cpi                               0.822852                       # CP
 system.cpu.cpi_total                         0.822852                       # CPI: Total CPI of All Threads
 system.cpu.ipc                               1.215285                       # IPC: Instructions Per Cycle
 system.cpu.ipc_total                         1.215285                       # IPC: Total IPC of All Threads
+
+
+total call instruction imul
+40x40 =  64000 * 3 = 192000 total cycles
+
+total call instruction imul with no duplicated values
+40x40 = 780 |  64000 - 780 =  63220 duplicated calls | that is = 780*3=2340 cycles +  63220 =  65560 cycles |
