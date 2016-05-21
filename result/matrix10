@@ -39,4 +39,6 @@ total call instruction imul
 10x10 =   1000 * 3 = 3000 total cycles
 
 total call instruction imul with no duplicated values
-10x10 = 472 |   1000 - 472 =    528 duplicated calls | that is = 472*3=1416 cycles +    528 =   1944 cycles |
+10x10 = 472 |   1000 - 472 =    528 duplicated calls | that is = 472 * 3 = 1416 cycles + 528 =   1944 cycles |
+
+3000 - 1944 = 1166, ciclos a menos com nossa técnica, depois subtrair o total(191937) - 1166, e calcular o ganho, regra de 3
