@@ -7,8 +7,6 @@ cycles
 256- 7258328
 512- 7258328
 
-
-
 ipc
 64
 system.cpu.cpi                               0.778004                       # CPI: Cycles Per Instruction
@@ -34,10 +32,10 @@ system.cpu.cpi_total                         0.783360                       # CP
 system.cpu.ipc                               1.276552                       # IPC: Instructions Per Cycle
 system.cpu.ipc_total                         1.276552                       # IPC: Total IPC of All Threads
 
-
 total call instruction imul
 60x60 = 216000 * 3 = 648000 total cycles
 
 total call instruction imul with no duplicated values
 60x60 = 780 | 216000 - 780 = 215220 duplicated calls | that is = 780*3=2340 cycles + 215220 = 217560 cycles |
 
+648000 - 217560 = 430440

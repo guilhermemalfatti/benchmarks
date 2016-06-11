@@ -97,7 +97,7 @@ void printGraph(Graph *graph)
 			if (!visited[child_node->data]) {
 				enQueue(q, newQueueNode(child_node));
 				visited[child_node->data] = 1;
-				printf("Visited node [%d].\n", child_node->data);
+				//printf("Visited node [%d].\n", child_node->data);
 			}
 			neighbours = neighbours->next;
 		}

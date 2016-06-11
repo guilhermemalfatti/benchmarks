@@ -40,3 +40,5 @@ total call instruction imul
 
 total call instruction imul with no duplicated values
 40x40 = 780 |  64000 - 780 =  63220 duplicated calls | that is = 780*3=2340 cycles +  63220 =  65560 cycles |
+
+192000 - 65560 = 126440 quantidade de ciclos q não foi executado
